@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         try {
             display.value = eval(display.value);
         } catch (e) {
-            display.value = 'Erro';
+            display.value = 'Erro 404';
         }
     }
 
